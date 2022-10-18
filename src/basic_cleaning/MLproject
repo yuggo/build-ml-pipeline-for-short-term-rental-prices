@@ -1,0 +1,32 @@
+name: basic_cleaning
+conda_env: conda.yml
+
+entry_points:
+  main:
+    parameters:
+
+      raw_data:
+        description: The input artifact which is the raw data.
+        type: string
+
+      output_artifact:
+        description: The output artifact which is the cleaned data.
+        type: string
+
+      output_type:
+        description: The type of the output.
+        type: string
+
+      output_description:
+        description: The description of the output.
+        type: string
+
+      min_price:
+        description: The minimum price lower level outliers are set to.
+        type: float
+
+      max_price:
+        description: The maximum price higher level outliers are set to.
+        type: float
+
+    command: "python run.py {raw_data} {output_artifact} {output_type} {output_description} {min_price} {max_price} "
