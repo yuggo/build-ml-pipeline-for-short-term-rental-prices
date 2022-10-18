@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 """
 This script download a URL to a local destination
+Well it does not really, the data seems to be already in the repo
+It is then only "uploaded" to Weights&Biases
 """
 import argparse
 import logging
