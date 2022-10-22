@@ -34,6 +34,10 @@ In this project you will build such a pipeline.
 ## Here is the link to W&B
 https://wandb.ai/dnsvckvc/nyc_airbnb
 
+## Here is the link to the github repo 
+This does seem a bit circular...
+https://github.com/yuggo/ml_devops_project_1
+
 ## Preliminary steps
 ### Fork the Starter kit
 Go to [https://github.com/udacity/build-ml-pipeline-for-short-term-rental-prices.git](https://github.com/udacity/build-ml-pipeline-for-short-term-rental-prices.git)
