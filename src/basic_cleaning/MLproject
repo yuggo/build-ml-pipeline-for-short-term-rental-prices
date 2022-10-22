@@ -29,4 +29,5 @@ entry_points:
         description: The maximum price higher level outliers are set to.
         type: float
 
-    command: "python run.py {raw_data} {output_artifact} {output_type} {output_description} {min_price} {max_price} "
+    command: >-
+        python run.py  --raw_data {raw_data}  --output_artifact {output_artifact}  --output_type {output_type}  --output_description {output_description}  --min_price {min_price}  --max_price {max_price} 

@@ -7,6 +7,7 @@ import logging
 import wandb
 import pandas as pd
 
+from wandb_utils.log_artifact import log_artifact
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)-15s %(message)s")
 logger = logging.getLogger()
@@ -56,44 +57,44 @@ if __name__ == "__main__":
 
 
     parser.add_argument(
-        "raw_data", 
-        type=str
-        help="Name of the raw data to use"
+        "--raw_data",
+        type=str,
+        help="Name of the raw data to use",
         required=True
     )
 
     parser.add_argument(
-        "output_artifact", 
-        type=str
-        help="Name of the cleaned data"
+        "--output_artifact",
+        type=str,
+        help="Name of the cleaned data",
         required=True
     )
 
     parser.add_argument(
-        "output_type", 
-        type=str
-        help="The type of the output artifact used to categorize the artifact in Weights&Biases"
+        "--output_type",
+        type=str,
+        help="The type of the output artifact used to categorize the artifact in Weights&Biases",
         required=True
     )
 
     parser.add_argument(
-        "output_description", 
-        type=str
-        help="The description of the output."
+        "--output_description",
+        type=str,
+        help="The description of the output.",
         required=True
     )
 
     parser.add_argument(
-        "min_price", 
-        type=float
-        help="The minimum of the range used to treat outliers"
+        "--min_price",
+        type=float,
+        help="The minimum of the range used to treat outliers",
         required=True
     )
 
     parser.add_argument(
-        "max_price", 
-        type=float
-        help="The maximum of the range used to treat outliers"
+        "--max_price",
+        type=float,
+        help="The maximum of the range used to treat outliers",
         required=True
     )
     args = parser.parse_args()
