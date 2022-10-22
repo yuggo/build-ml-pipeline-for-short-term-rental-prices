@@ -31,6 +31,9 @@ In this project you will build such a pipeline.
   * [Train the model on a new data sample](#train-the-model-on-a-new-data-sample)
 - [Cleaning up](#cleaning-up)
 
+## Here is the link to W&B
+https://wandb.ai/dnsvckvc/nyc_airbnb
+
 ## Preliminary steps
 ### Fork the Starter kit
 Go to [https://github.com/udacity/build-ml-pipeline-for-short-term-rental-prices.git](https://github.com/udacity/build-ml-pipeline-for-short-term-rental-prices.git)
