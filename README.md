@@ -36,7 +36,7 @@ https://wandb.ai/dnsvckvc/nyc_airbnb
 
 ## Here is the link to the github repo 
 This does seem a bit circular...
-https://github.com/yuggo/ml_devops_project_1
+https://github.com/yuggo/build-ml-pipeline-for-short-term-rental-prices
 
 ## Preliminary steps
 ### Fork the Starter kit
